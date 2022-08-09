@@ -1,4 +1,5 @@
 ## http client unit testing
+
 ```
 let httpMock: HttpTestingController;
 let httpClient: HttpClient;
@@ -30,6 +31,7 @@ it('', () => {
 ```
 
 ## ngOnDestroy unit testing
+
 ```
 it('should unsubscribe all active subscriptions', () => {
   const mockSubscription = new Subscription();
@@ -46,6 +48,7 @@ it('should unsubscribe all active subscriptions', () => {
 ```
 
 ## splitting array to subarray and sort
+
 ```
 /**
  * split the records array to sub arrays based on splancode
@@ -76,6 +79,7 @@ this.aggregateUsageData = groupedArrays.map((subarr) => {
 ```
 
 ## import stylesheet without relative path in angular
+
 ```
 angular.json => projects => architect => build => options
 "stylePreprocessorOptions": {
