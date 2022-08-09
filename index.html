@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+  </head>
+  <body>
+    <h1>Hello there!</h1>
+    <a href="/me.html">My other page</a>
+    <div id='placeholder'></div>
+    <template id="template">
+      ${data.map(function (obj, index) { return `
+      <p>Article: ${obj.article}</p>
+      <p>Author: ${obj.author}</p>
+      `; }).join('')}
+    </template>
+    <script src="script.js"></script>
+  </body>
+</html>
